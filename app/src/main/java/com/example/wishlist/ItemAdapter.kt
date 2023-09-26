@@ -38,7 +38,7 @@ class ItemAdapter(private val items: List<Item>) : RecyclerView.Adapter<ItemAdap
                     val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(itemURLTextView.text.toString()))
                     ContextCompat.startActivity(it.context, browserIntent, null)
                 } catch (e: ActivityNotFoundException) {
-                    Toast.makeText(it.context, "Invalid URL for " + itemPriceTextView.text.toString(), Toast.LENGTH_LONG).show()
+                    Toast.makeText(it.context, "Invalid URL for " + itemNameTextView.text.toString(), Toast.LENGTH_LONG).show()
                 }
             }
 
