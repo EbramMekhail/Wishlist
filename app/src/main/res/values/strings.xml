@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="item_name">Item Name</string>
+    <string name="ex_https_example_com">Ex: https://example.com/</string>
+    <string name="ex_5_99">Ex: 5.99</string>
+    <string name="submit">SUBMIT</string>
+    <string name="app_name">WishList</string>
+</resources>
